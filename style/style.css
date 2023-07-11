@@ -6,12 +6,12 @@ body{
     font-family: 'Dancing Script', cursive;
     font-family: 'Open Sans', sans-serif;
 } 
-main .icon-section,.letest-section{
+main .icon-section,.letest-section,.flower-featured,.instagram{
     margin: 100px 50px;
 }
-main .flower-featured,.instagram{
-    margin: 100px 120px;
-}
+/* main .instagram{
+    margin: 100px 0px;
+} */
 
 /* common style  */
 .btn-primary{
@@ -62,7 +62,7 @@ font-weight: 700;
 /* feature section style  */
 .featured{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     
 }
@@ -118,8 +118,7 @@ padding: 40px 30px 0 30px;
 /* Instagram Section style  */
 .insta-flower-container{
     display: flex;
-    justify-content: center;
-    gap: 10px;
+    justify-content: space-between;
     align-items: center; 
 }
 /* Latest input style  */
