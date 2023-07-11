@@ -116,6 +116,9 @@ padding: 40px 30px 0 30px;
 }
 
 /* Instagram Section style  */
+.instagram{
+    max-width: 1500px;
+}
 .insta-flower-container{
     display: flex;
     justify-content: space-around;
