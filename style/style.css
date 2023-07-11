@@ -5,6 +5,12 @@
 body{
     font-family: 'Dancing Script', cursive;
     font-family: 'Open Sans', sans-serif;
+} 
+main .icon-section,.letest-section{
+    margin: 100px 50px;
+}
+main .flower-featured,.instagram{
+    margin: 100px 120px;
 }
 
 /* common style  */
@@ -22,9 +28,9 @@ margin-top: 20px;
     margin-top: 20px;
 }
 .section-title-container{
-    margin-top: 80px;
+    margin-bottom: 80px;
     text-align: center;
-    padding:0 450px ;
+    padding:0 350px ;
 }
 .section-title{
 color: #272727;
@@ -35,6 +41,7 @@ font-weight: 800;
 /* header related style  */
 .header{
     background: rgba(229, 84, 115, 0.10);
+    margin-bottom: 80px;
 }
 .banner-pic{
     width: 500px;
@@ -57,7 +64,7 @@ font-weight: 700;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 45px 100px;
+    
 }
 .flower1{
     border-radius: 300px 300px 0px 0px;
@@ -82,7 +89,6 @@ padding: 40px 30px 0 30px;
 .icon-section{
     border-radius: 8px;
     background: rgba(111, 0, 255, 0.05);
-    margin: 0 130px;
 } 
 .icon-picture-section{
     display: flex;
@@ -96,7 +102,7 @@ padding: 40px 30px 0 30px;
 .sale-section{
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-    margin-top: 100px;
+    margin-top: 150px 0;
 }
 .sale-section-container{
     display: flex;
@@ -115,7 +121,6 @@ padding: 40px 30px 0 30px;
     justify-content: center;
     gap: 10px;
     align-items: center; 
-    margin: 50px 300px;
 }
 /* Latest input style  */
 .letest-section{
@@ -123,15 +128,22 @@ padding: 40px 30px 0 30px;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
-    margin: 100px 50px;
     padding: 50px; 
 }
-.letest-section .section-title{
-    color: rgb(255, 0, 0);
-    /* font-size: 25px;  */
+.letest-section-container{
+    padding: 100px;
 }
-.letest-section .text-description{
-    color: rgb(0, 204, 255);
+.latest-title{
+    color: #00d9ff;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+.latesr-description{
+    color: #00d9ff;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
 }
 .latest-input{
     text-align: center;
