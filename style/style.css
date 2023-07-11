@@ -28,7 +28,7 @@ margin-top: 20px;
     margin-top: 20px;
 }
 .section-title-container{
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     text-align: center;
     padding:0 350px ;
 }
@@ -118,8 +118,8 @@ padding: 40px 30px 0 30px;
 /* Instagram Section style  */
 .insta-flower-container{
     display: flex;
-    justify-content: space-between;
-    align-items: center; 
+    justify-content: space-around;
+    
 }
 /* Latest input style  */
 .letest-section{
