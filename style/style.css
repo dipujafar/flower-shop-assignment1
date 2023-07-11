@@ -4,7 +4,7 @@
 }
 body{
     font-family: 'Dancing Script', cursive;
-font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* common style  */
@@ -22,12 +22,12 @@ margin-top: 20px;
     margin-top: 20px;
 }
 .section-title-container{
-    margin-top: 100px;
+    margin-top: 80px;
     text-align: center;
     padding:0 450px ;
 }
 .section-title{
-    color: #272727;
+color: #272727;
 text-align: center;
 font-size: 40px;
 font-weight: 800;
@@ -118,6 +118,37 @@ padding: 40px 30px 0 30px;
     margin: 50px 300px;
 }
 /* Latest input style  */
-.letest-section-container{
-    background-image: url(../);
+.letest-section{
+    background-image: url(../background/Rectangle9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 100px 50px;
+    padding: 100px;
+}
+.letest-section .section-title{
+    color: rgb(255, 0, 0);
+    font-size: 25px; 
+}
+.letest-section .text-description{
+    color: rgb(0, 204, 255);
+}
+.latest-input{
+    text-align: center;
+}
+.latest-input [type="email"]{
+    padding: 15px 200px;
+    border-radius: 5px;
+    border: none;
+}
+/* Footer style  */
+.footer-style{
+    background-color: rgb(27, 25, 25);
+    padding: 50px 0px;
+}
+.copy-right-text{
+    margin-top: 30px;
+}
+span{
+    color: #E55473;
 }
