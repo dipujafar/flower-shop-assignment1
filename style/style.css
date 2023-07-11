@@ -128,7 +128,7 @@ padding: 40px 30px 0 30px;
 }
 .letest-section .section-title{
     color: rgb(255, 0, 0);
-    font-size: 25px; 
+    /* font-size: 25px;  */
 }
 .letest-section .text-description{
     color: rgb(0, 204, 255);
